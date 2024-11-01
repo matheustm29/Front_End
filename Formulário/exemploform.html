@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Ferreira Alphonse dos Anjos</title>
+</head>
+<body>
+    <form>
+        <label for="inome">Nome Completo: </label><br>
+        <input type="text" name="nome" id="inome" required><br>
+        <label for="idade">Idade: </label><br>
+        <input type="number" name="idade" id="idade" required min="18" max="120" ><br>
+        <label for="iemail">Email: </label><br>
+        <input type="email" name="email" id="iemail" required placeholder="insira um e-mail válido"><br>
+        <label for="icont">Conteúdo de maior interesse: </label><br>
+        <select name="cont" id="icont">
+            <option value="javascript" selected>JavaScript</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+        </select><br>
+        <label for="ibox">Deixe sua opinião: </label><br>
+        <textarea name="box" id="ibox" rows="5" cols="30"></textarea><br>
+        <label for="isenha">Senha: </label><br>
+        <input type="password" name="senha" id="isenha" required><br><br>
+        <input type="submit" value="Enviar">
+ 
+    </form>
+</body>
+</html>
