@@ -29,7 +29,7 @@ header > h1 {
 
 header > ul {
     text-align: left;
-    padding: 30px;
+    padding: 50px;
     padding-bottom: 0px;
 }
 
@@ -44,7 +44,7 @@ main{
 main > h2{
     font-size: 1.5em;
     padding: 3.3px;
-    width: 100vw;
+    width: 100%;
     background-color: #1A4D7F;
     color: white;
 }
