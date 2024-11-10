@@ -33,6 +33,9 @@ header > ul {
     padding-bottom: 0px;
 }
 
+a:hover{
+    color: #0E395D;
+}
 
 main{
     font-family: Arial, Helvetica, sans-serif;
@@ -42,6 +45,7 @@ main{
 }
 
 main > h2{
+    text-decoration: dashed;
     font-size: 1.5em;
     padding: 3.3px;
     width: 100%;
@@ -50,6 +54,7 @@ main > h2{
 }
 
 main > p {
+    text-decoration: solid;
     font-style: italic;
     padding: 10px;
 }
